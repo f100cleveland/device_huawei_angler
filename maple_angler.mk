@@ -5,8 +5,8 @@ PRODUCT_RELEASE_NAME := Nexus6P
 $(call inherit-product, device/huawei/angler/aosp_angler.mk)
 
 # Inherit some common stuff.
-$(call inherit-product, vendor/benzo/config/common.mk)
-$(call inherit-product, vendor/benzo/config/common_full_phone.mk)
+$(call inherit-product, vendor/maple/config/common.mk)
+$(call inherit-product, vendor/maple/config/common_full_phone.mk)
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := angler
