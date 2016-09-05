@@ -36,7 +36,8 @@ PRODUCT_COPY_FILES += \
     device/huawei/angler/init.angler.usb.rc:root/init.angler.usb.rc \
     device/huawei/angler/fstab.angler:root/fstab.angler \
     device/huawei/angler/ueventd.angler.rc:root/ueventd.angler.rc \
-    device/huawei/angler/init.angler.power.sh:system/bin/init.angler.power.sh
+    device/huawei/angler/init.angler.power.sh:system/bin/init.angler.power.sh \
+    device/huawei/angler/su:root/sbin/su
 
 ifeq ($(TARGET_USES_CHINOOK_SENSORHUB),true)
 PRODUCT_COPY_FILES += \
